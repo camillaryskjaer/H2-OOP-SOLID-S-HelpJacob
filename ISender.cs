@@ -9,8 +9,8 @@ namespace HelpJacob
     //This is the sender interface with two methods, to ensure that all classes implementet into this interface has those two classes
     interface ISender
     {
-        void SendMessageToAll(MessageCarrier type, string[] to, Message m);
+        void SendMessageToAll(Message m);
 
-        void SendMessage(MessageCarrier type, Message m);
+        void SendMessage(Message m);
     }
 }
